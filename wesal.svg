@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="veil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b2b30"/>
+      <stop offset="100%" stop-color="#141416"/>
+    </linearGradient>
+    <linearGradient id="abaya" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#232328"/>
+      <stop offset="100%" stop-color="#0f0f11"/>
+    </linearGradient>
+  </defs>
+
+  <!-- الخلفية -->
+  <circle cx="200" cy="200" r="200" fill="#f6e4e8"/>
+
+  <!-- الجسم / العباية -->
+  <path d="M200 205
+           C 130 205, 88 260, 80 340
+           L 80 400 L 320 400 L 320 340
+           C 312 260, 270 205, 200 205 Z"
+        fill="url(#abaya)"/>
+
+  <!-- الرأس والحجاب -->
+  <path d="M200 60
+           C 138 60, 108 110, 110 168
+           C 111 196, 122 222, 140 240
+           L 260 240
+           C 278 222, 289 196, 290 168
+           C 292 110, 262 60, 200 60 Z"
+        fill="url(#veil)"/>
+
+  <!-- فتحة العينين (جلد بدون تفاصيل للعيون) -->
+  <path d="M148 158
+           C 170 148, 230 148, 252 158
+           L 248 196
+           C 226 206, 174 206, 152 196 Z"
+        fill="#e8c9a9"/>
+
+  <!-- النقب يغطي ما تحت العينين -->
+  <path d="M152 196
+           C 174 206, 226 206, 248 196
+           L 244 222
+           C 226 234, 174 234, 156 222 Z"
+        fill="#1c1c20"/>
+</svg>
